@@ -1,15 +1,14 @@
 .welcome{
-    max-width: 1320px;
     height: 600px;
-    background-image: url(../images/Vectorrr.png), linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bg/party-bg.png), linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
-    display: flex;
-    flex-direction: column;
-    border-radius: 15px;
     position: relative;
+    border-radius: 15px;
 }
 .welcome .wc-title{
     max-width: 642px;
@@ -33,12 +32,11 @@
     left: 126px;
     top: 55%;
 }
-.welcome .wc-img{
-    height: 465px;
-    width: 320px;
+.welcome .wc-btn{
+    text-decoration: none;
     position: absolute;
-    top: 69px;
-    right: 138px;
+    bottom: 126px;
+    left: 126px;
 }
 .welcome .wc-btn button{
     padding: 10px 15px;
@@ -53,9 +51,10 @@
 .welcome .wc-btn button:hover{
     background-color: #FFF;
 }
-.welcome .wc-btn{
-    text-decoration: none;
+.welcome .wc-img{
+    height: 465px;
+    width: 320px;
     position: absolute;
-    bottom: 126px;
-    left: 126px;
+    top: 69px;
+    right: 138px;
 }

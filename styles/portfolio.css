@@ -1,0 +1,29 @@
+.portfolio{
+
+}
+.portfolio #b-gift{
+    margin: 12px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+.portfolio #port-desc-para{
+    max-width: 896px;
+    margin-bottom: 40px;
+}
+.portfolio .pf-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+.pf-img-container a{
+    text-decoration: none;
+    width: fit-content;
+}
+.pf-img-container a img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+.pf-img-container a img:hover{
+    background-color: red;
+}

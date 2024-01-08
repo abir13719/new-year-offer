@@ -1,7 +1,6 @@
 .event{
-    max-width: 1320px;
     height: 482px;
-    background-image: url(../images/Vector.png);
+    background-image: url(../images/bg/event-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -11,7 +10,7 @@
     justify-content: center;
     border-radius: 15px;
 }
-.evn-tx{
+.event .evn-tx{
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -19,11 +18,15 @@
     line-height: 56px;
     text-transform: capitalize;
 }
-.evn-rd{
+.event .evn-red-tx{
     font-family: Inter;
     color: red;
 }
-.rd-btn button{
+.event .red-btn{
+    margin-top: 40px;
+    text-decoration: none;
+}
+.event .red-btn button{
     padding: 10px 26px;
     border-radius: 6px;
     border: none;
@@ -33,7 +36,6 @@
     font-size: 18px;
     background-color: red;
 }
-.rd-btn{
-    margin-top: 40px;
-    text-decoration: none;
+.event .red-btn button:hover{
+    background-color: black;
 }
