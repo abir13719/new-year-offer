@@ -1,0 +1,54 @@
+.welcome{
+    max-width: 1320px;
+    height: 600px;
+    background-image: url(../images/Vectorrr.png), linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: relative;
+}
+.welcome .wc-title{
+    max-width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    position: absolute;
+    top: 126px;
+    left: 126px;
+}
+.welcome .wc-tx{
+    max-width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    left: 126px;
+    top: 55%;
+}
+.welcome .wc-btn button{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    color: #000;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+.welcome .wc-btn button:hover{
+    background-color: #FFF;
+}
+.welcome .wc-btn{
+    text-decoration: none;
+    position: absolute;
+    bottom: 126px;
+    left: 126px;
+}
