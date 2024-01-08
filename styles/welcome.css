@@ -33,6 +33,13 @@
     left: 126px;
     top: 55%;
 }
+.welcome .wc-img{
+    height: 465px;
+    width: 320px;
+    position: absolute;
+    top: 69px;
+    right: 138px;
+}
 .welcome .wc-btn button{
     padding: 10px 15px;
     border-radius: 4px;
