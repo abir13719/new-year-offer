@@ -1,0 +1,66 @@
+.coming-soon{
+    max-width: 1320px;
+    height: 482px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.best-offer{
+    width: 390px;
+    padding-bottom: 40px;
+}
+#nbf{
+    margin: 12px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+.bf-title{
+    text-align: left;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.bf-tx, .y-tx{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 12px 0;
+}
+
+
+.cs-img{
+    width: 463px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cs-img img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 100%;
+    outline: 15px solid red;
+    outline-offset: 45px;
+}
+
+.year-div{
+    width: 390px;
+    padding-left: 60px;
+}
+.y-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.year-div img{
+    height: 140px;
+    width: 140px;
+    margin-top: 20px;
+}
