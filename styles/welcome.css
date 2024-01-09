@@ -49,7 +49,9 @@
     background-color: rgba(255, 255, 255, 0.80);
 }
 .welcome .wc-btn button:hover{
-    background-color: #FFF;
+    transition: 0.2s ease-in-out;
+    color: #FFF;
+    background-color: red;
 }
 .welcome .wc-img{
     height: 465px;
