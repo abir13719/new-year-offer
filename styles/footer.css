@@ -1,0 +1,94 @@
+footer{
+    background-color: #070211;
+    height: 609px;
+}
+.foot-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.foot-container .contact-data{
+    display: flex;
+    justify-content: space-between;
+}
+.address .cont-location{
+    max-width: 375px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    font-style: normal;
+}
+
+
+.contact-container{
+    margin-right: 100px;
+}
+.phone-web-div{
+    display: flex;
+    align-items: center;
+}
+.phone-web-div img{
+    height: 24px;
+    width: 24px;
+}
+.phone-web-div .cont-phone{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.cont-web{
+    display: flex;
+    align-items: center;
+}
+.cont-web img{
+    height: 24px;
+    width: 24px;
+}
+.cont-web a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+.social-links a img{
+    width: 64px;
+    height: 64px;
+}
+
+.right-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-tx{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.right-info a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+hr{
+    margin: 50px 0;
+}
