@@ -1,44 +1,44 @@
-.coming-soon{
-    height: 482px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.coming-soon {
+  height: 482px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.coming-soon .best-offer{
-    width: 390px;
-    padding-bottom: 40px;
+.coming-soon .best-offer {
+  width: 390px;
+  padding-bottom: 40px;
 }
-.best-offer #b-off{
-    margin: 12px 0;
-    text-align: left;
-    text-transform: uppercase;
+.best-offer #b-off {
+  margin: 12px 0;
+  text-align: left;
+  text-transform: uppercase;
 }
-.coming-soon .cs-img{
-    width: 463px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.coming-soon .cs-img {
+  width: 463px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.cs-img img{
-    width: 364.844px;
-    height: 364.844px;
-    border-radius: 100%;
-    outline: 15px solid red;
-    outline-offset: 45px;
+.cs-img img {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 100%;
+  outline: 15px solid red;
+  outline-offset: 45px;
 }
 
-.coming-soon .year-div{
-    width: 390px;
-    padding-left: 60px;
+.coming-soon .year-div {
+  width: 390px;
+  padding-left: 60px;
 }
-.year-div .year-title{
-    color: #F00;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
+.year-div .year-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
-.year-div img{
-    height: 140px;
-    width: 140px;
-    margin-top: 20px;
+.year-div img {
+  height: 140px;
+  width: 140px;
+  margin-top: 20px;
 }

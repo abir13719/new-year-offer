@@ -1,62 +1,62 @@
-.holiday .holiday-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.holiday .holiday-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.holiday-text .hd-qus{
-    color: #070211;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
+.holiday-text .hd-qus {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
-.holiday-text .hd-title{
-    color: #F00;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    margin: 20px 0;
+.holiday-text .hd-title {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 20px 0;
 }
-.holiday-text .hd-blk-title{
-    color: #070211;
+.holiday-text .hd-blk-title {
+  color: #070211;
 }
-.holiday-text #hd-desc-para{
-    max-width: 1068px;
-    text-align: center;
-    margin-bottom: 40px;
+.holiday-text #hd-desc-para {
+  max-width: 1068px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.holiday .hd-img-container{
-    width: 100%;
-    height: 662px;
-    position: relative;
+.holiday .hd-img-container {
+  width: 100%;
+  height: 662px;
+  position: relative;
 }
-.hd-img-container .red-girl{
-    width: 429px;
-    height: 433px;
-    position: absolute;
-    right: 0;
+.hd-img-container .red-girl {
+  width: 429px;
+  height: 433px;
+  position: absolute;
+  right: 0;
 }
-.hd-img-container .red-box{
-    width: 1320px;
-    height: 229px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.hd-img-container .red-box {
+  width: 1320px;
+  height: 229px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-.hd-img-container .dis50{
-    width: 240px;
-    height: 240px;
-    position: absolute;
-    right: 310px;
-    bottom: 290px;
-    z-index: 99;
+.hd-img-container .dis50 {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  right: 310px;
+  bottom: 290px;
+  z-index: 99;
 }
-.hd-img-container .gift-box{
-    width: 796.463px;
-    height: 662.07px;
-    position: absolute;
-    bottom: 0;
-    left: 10px;
+.hd-img-container .gift-box {
+  width: 796.463px;
+  height: 662.07px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
 }
